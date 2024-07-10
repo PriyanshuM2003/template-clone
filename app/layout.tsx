@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./styles/globals.css";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,25 +27,25 @@ export default function RootLayout({
           rel="stylesheet"
           crossOrigin="anonymous"
         />
-        <Script
+        <script
           src="https://kit.fontawesome.com/a904b2a825.js"
           crossOrigin="anonymous"
-        />
+        ></script>
       </head>
       <body className={inter.className}>
         {children}
-        <Script
+        <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
           crossOrigin="anonymous"
-        />
-        <Script
+        ></script>
+        <script
           src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"
           crossOrigin="anonymous"
-        />
-        <Script
+        ></script>
+        <script
           src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
           crossOrigin="anonymous"
-        />
+        ></script>
       </body>
     </html>
   );
