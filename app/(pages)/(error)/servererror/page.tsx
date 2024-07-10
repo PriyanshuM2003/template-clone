@@ -1,4 +1,4 @@
-import ServerError from "@/components/pages/500";
+import ServerError from "@/components/pages/ServerError";
 import React from "react";
 
 const page = () => {

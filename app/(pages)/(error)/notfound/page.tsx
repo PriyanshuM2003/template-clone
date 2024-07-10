@@ -1,4 +1,4 @@
-import NotFound from "@/components/pages/404";
+import NotFound from "@/components/pages/NotFound";
 import React from "react";
 
 const page = () => {

@@ -134,13 +134,13 @@ const Sidebar = () => {
                     data-bs-parent="#sidenavAccordionPages"
                   >
                     <nav className="sb-sidenav-menu-nested nav">
-                      <Link className="nav-link" href={"/401"}>
+                      <Link className="nav-link" href={"/unauthorized"}>
                         401 Page
                       </Link>
-                      <Link className="nav-link" href={"/404"}>
+                      <Link className="nav-link" href={"/notfound"}>
                         404 Page
                       </Link>
-                      <Link className="nav-link" href={"/500"}>
+                      <Link className="nav-link" href={"/servererror"}>
                         500 Page
                       </Link>
                     </nav>

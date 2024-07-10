@@ -1,4 +1,4 @@
-import Unauthorized from "@/components/pages/401";
+import Unauthorized from "@/components/pages/Unauthorized";
 import React from "react";
 
 const page = () => {
